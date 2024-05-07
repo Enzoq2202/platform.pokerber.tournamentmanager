@@ -33,9 +33,9 @@ public interface TournamentManagerController {
     );
 
     // Endpoint para remover um jogador de um torneio
-    @DeleteMapping("/{tournamentId}/players/{playerId}")
-    public ResponseEntity<Void> removePlayerFromTournament(
-        @PathVariable String tournamentId,
-        @PathVariable String playerId
-    );
+    // @DeleteMapping("/{tournamentId}/players/{playerId}")
+    // public ResponseEntity<Void> removePlayerFromTournament(
+    //     @PathVariable String tournamentId,
+    //     @PathVariable String playerId
+    // );
 }
